@@ -3,7 +3,6 @@ body {
                   color: #434455;
                   background-color: #FFFFFF;
 }
-
 a {
                   text-decoration: none;
 }
@@ -24,6 +23,18 @@ ul, ol {
 ul li, ol li {
                   list-style: none;
 }
+.visually-hidden {
+                  position: absolute;
+                  width: 1px;
+                  height: 1px;
+                  margin: -1px;
+                  border: 0;
+                  padding: 0;
+                  white-space: nowrap;
+                  clip-path: inset(100%);
+                  clip: rect(0 0 0 0);
+                  overflow: hidden;
+}
 
 .logo {
                   font-family: "Raleway", sans-serif;
@@ -33,6 +44,10 @@ ul li, ol li {
                   letter-spacing: 0.03em;
                   text-transform: uppercase;
                   color: #4d5ae5;
+}
+.container{
+                  width: 1158px;
+                  margin: 0 auto;
 }
 
 .logo-studio {
@@ -74,7 +89,15 @@ ul li, ol li {
                   line-height: 1.5;
                   letter-spacing: 0.02em;
                   color: #2e2f42;
+                  display: flex;
+                  align-items: center;
 }
+.nav-list{
+                  display: flex;
+                  align-items: center;
+}
+                  
+
 
 .main-nav:hover,
 .main-nav:focus {
@@ -86,6 +109,12 @@ ul li, ol li {
                   line-height: 1.5;
                   letter-spacing: 0.02em;
                   color: #434455;
+                  display: flex;
+                  align-items: center;
+}
+.header-container{
+                  display: flex;
+                  align-items: center;
 }
 
 .address-list:hover,
@@ -113,6 +142,12 @@ ul li, ol li {
                   text-align: center;
                   letter-spacing: 0.02em;
                   color: #ffffff;
+                  max-width: 496px;
+                  margin-bottom: 48px;
+                  margin-right: auto;
+                  margin-left: auto;
+
+                                 
 }
 
 .btn-order {
@@ -125,6 +160,11 @@ ul li, ol li {
                   color: #ffffff;
                   cursor: pointer;
 }
+.advantages{
+                  display: flex;
+                  align-items: center;
+}
+
 
 .btn-order:hover,
 .btn-order:focus {
@@ -137,6 +177,8 @@ ul li, ol li {
                   line-height: 1.2;
                   letter-spacing: 0.02em;
                   color: #2e2f42;
+                  align-items: center;
+                  display: block;
 }
 
 .section-paragraph {
@@ -161,6 +203,8 @@ ul li, ol li {
 
 .team-list {
                   list-style: none;
+                  display: flex;
+                  align-items: center;
 }
 
 .team-item {
@@ -185,19 +229,37 @@ ul li, ol li {
 
 .portfolio-list {
                   list-style: none;
+                  display: grid;
+                  align-items: center;
+                  grid-template-columns: repeat(3, 1fr);
+                  gap: 20px;
+                  padding: 0;
+                  margin: 0 auto;
+                  max-width: 1200px;             
 }
 
 .portfolio-item {
                   background-color: #FFFFFF;
-                  margin-bottom: 20px;
+                  border: 1px solid #E0E0E0;
+                  border-radius: 8px;
+                  padding: 15px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+                  align-items: center;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  transition: transform 0.3s ease;
+
 }
 
 .portfolio-item-heading {
                   font-weight: 500;
-                  font-size: 20px;
+                  font-size: 18px;
                   line-height: 1.2;
                   letter-spacing: 0.02em;
                   color: #2e2f42;
+                  margin: 10px 0 5px;
+                  text-align: center;
 }
 
 .portfolio-item-paragraph {
@@ -205,6 +267,13 @@ ul li, ol li {
                   line-height: 1.5;
                   letter-spacing: 0.02em;
                   color: #434455;
+                  text-align: center;
+}
+.portfolio-item-img {
+
+                  max-width: 100%;
+                  height: auto;
+                  border-radius: 5px;
 }
 
 .footer-section {
