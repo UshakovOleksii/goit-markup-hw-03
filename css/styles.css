@@ -64,6 +64,7 @@ ul li, ol li {
                   line-height: 1.5;
                   letter-spacing: 0.02em;
                   color: #2e2f42;
+                  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -177,6 +178,7 @@ ul li, ol li {
                   display: flex;
                   align-items: center;
                   gap: 24px;
+                  width: calc((100% - 72px) / 4);
 }
 
 
@@ -185,7 +187,7 @@ ul li, ol li {
                   background-color: #404BBF;
 }
 .main-text{
-                  padding: 120px;
+                  padding: 120px 0;
 }
 
 .section-title {
@@ -197,9 +199,6 @@ ul li, ol li {
                   align-items: center;
                   display: block;
                   margin-bottom: 8px;
-}
-.section-title-one{
-                  width: calc((100% - 72px) / 4);
 }
 
 .section-paragraph {
