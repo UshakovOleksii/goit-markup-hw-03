@@ -213,6 +213,7 @@ ul li, ol li {
 
 .section-team {
                   background-color: #F4F4FD;
+                  padding: 120px 0;
 }
 
 .section-heading {
@@ -222,17 +223,25 @@ ul li, ol li {
                   letter-spacing: 0.02em;
                   text-transform: capitalize;
                   color: #2e2f42;
+                  bottom: 72px;
 }
 
 .team-list {
                   list-style: none;
                   display: flex;
                   align-items: center;
+                  gap: 24px;
 }
 
 .team-item {
                   background-color: #FFFFFF;
                   margin-bottom: 20px;
+                  width: calc((100% - 72px) / 4);
+                  border-radius: 0px 0px 4px 4px;
+
+}
+.name-job{
+                  padding: 32px 0;
 }
 
 .team-member-heading {
@@ -241,6 +250,8 @@ ul li, ol li {
                   line-height: 1.2;
                   letter-spacing: 0.02em;
                   color: #2e2f42;
+                  text-align: center;
+                  margin-bottom: 8px;
 }
 
 .team-member-paragraph {
@@ -248,6 +259,7 @@ ul li, ol li {
                   line-height: 1.5;
                   letter-spacing: 0.02em;
                   color: #434455;
+                  text-align: center;
 }
 
 .portfolio-list {
@@ -301,6 +313,7 @@ ul li, ol li {
 
 .footer-section {
                   background-color: #2e2f42;
+                  padding: 100px 0;
 }
 
 .footer-logo {
@@ -311,6 +324,8 @@ ul li, ol li {
                   letter-spacing: 0.03em;
                   text-transform: uppercase;
                   color: #4d5ae5;
+                  display: inline-block;
+                  margin-bottom: 16px;
 }
 
 .footer-logo-span {
