@@ -181,6 +181,9 @@ ul li, ol li {
                   width: calc((100% - 72px) / 4);
 }
 
+.section-title-one{
+                  width: calc((100% - 72px) / 4);
+}
 
 .btn-order:hover,
 .btn-order:focus {
