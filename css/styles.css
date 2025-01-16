@@ -46,6 +46,7 @@ ul li, ol li {
                   letter-spacing: 0.03em;
                   text-transform: uppercase;
                   color: #4d5ae5;
+                  margin-right: 76px
 }
 .container{
                   max-width: 1158px;
@@ -73,6 +74,7 @@ ul li, ol li {
                   letter-spacing: 0.02em;
                   color: #2e2f42;
                   padding: 24px 0;
+                  align-items: center;
 }
 
 .nav-link:hover,
@@ -150,6 +152,7 @@ ul li, ol li {
                   align-items: center;                                
                   text-align: center;                     
                   box-sizing: border-box;
+                  padding: 188px 0
 }
 .wrapper{
                   padding-top: 72px;
@@ -350,10 +353,12 @@ ul li, ol li {
                   color: var(--footer-text-color, #f4f4fd);
                   letter-spacing: 0.02em;
                   margin-top: 10px;
+                  max-width: 264px
 }
 img {
                   display: block;
 }
 .footer-main{
                   max-width: 300px;
+
 }
