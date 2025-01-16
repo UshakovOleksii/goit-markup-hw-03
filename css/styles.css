@@ -106,7 +106,7 @@ ul li, ol li {
                   color: #2e2f42;
                   display: flex;
                   gap: 76px;
-                  text-align: center;
+                  align-items: center;
 }
 .nav-list{
                   display: flex;
@@ -136,9 +136,7 @@ ul li, ol li {
                   justify-content: space-between;
                   min-height: 72px;
 }
-.main-nav-info{
-                  align-items: center;
-}
+
 
 .address-list:hover,
 .address-list:focus {
