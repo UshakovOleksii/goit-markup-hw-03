@@ -137,7 +137,7 @@ ul li, ol li {
                   min-height: 72px;
 }
 .main-nav-info{
-                  text-align: center;
+                  align-items: center;
 }
 
 .address-list:hover,
