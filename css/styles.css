@@ -136,6 +136,9 @@ ul li, ol li {
                   justify-content: space-between;
                   min-height: 72px;
 }
+.main-nav-info{
+                  text-align: center;
+}
 
 .address-list:hover,
 .address-list:focus {
