@@ -46,13 +46,12 @@ ul li, ol li {
                   letter-spacing: 0.03em;
                   text-transform: uppercase;
                   color: #4d5ae5;
-                  margin-right: 76px
 }
 .container{
                   max-width: 1158px;
                   margin: 0 auto;
                   padding: 0 15px;
-                  box-sizing: content-box;
+                  box-sizing: border-box;
 }
 .header-main{
                   border-bottom: 1px solid #e7e9fc;
@@ -91,6 +90,7 @@ ul li, ol li {
                   line-height: 1.5;
                   letter-spacing: 0.02em;
                   color: #434455;
+                  font-weight: 400;
 }
 
 .contact-link:hover,
@@ -224,7 +224,8 @@ ul li, ol li {
                   padding: 120px 0;
 }
 
-.section-heading {
+.section-heading
+{
                   font-size: 36px;
                   line-height: 1.11;
                   text-align: center;
@@ -232,6 +233,7 @@ ul li, ol li {
                   text-transform: capitalize;
                   color: #2e2f42;
                   margin-bottom: 72px;
+                  font-weight: 700;
 }
 
 .team-list {
@@ -261,10 +263,6 @@ ul li, ol li {
                   text-align: center;
                   margin-bottom: 8px;
 }
-.section-heading-portfolio {
-                  margin-bottom: 72px;
-                  text-align: center;
-}
 
 .team-member-paragraph {
                   font-size: 16px;
@@ -284,9 +282,10 @@ ul li, ol li {
 
 .portfolio-item {
                   background-color: #FFFFFF;
-                  border: 1px solid #E0E0E0;
+/*                  border: 1px solid #E0E0E0;
                   border-radius: 8px;
                   padding: 15px;
+*/
                   display: flex;
                   flex-direction: column;
                   justify-content: space-between;
