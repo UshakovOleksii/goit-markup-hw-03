@@ -348,7 +348,6 @@ ul li, ol li {
                   line-height: 1.5;
                   color: var(--footer-text-color, #f4f4fd);
                   letter-spacing: 0.02em;
-                  margin-top: 16px;
                   max-width: 264px
 }
 img {
